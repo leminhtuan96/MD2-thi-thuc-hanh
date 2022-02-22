@@ -23,8 +23,8 @@ class ProductController
     {
         $this->productModel->delete($_GET["id"]);
         header("location:index.php?page=product-list");
-    }
 
+    }
 
     public function createProduct()
     {

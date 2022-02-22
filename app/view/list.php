@@ -22,7 +22,6 @@
         <td><?php echo $product->description?></td>
         <td><?php echo $product->category_id?></td>
         <td onclick="return confirm('Are you sure???')"><a href="index.php?page=product-delete&id=<?php echo $product->id?>">Delete</a></td>
-        <td><a href="index.php?page=product-detail&id=<?php echo $product->id?>">Detail</a></td>
         <td><a href="index.php?page=product-edit&id=<?php echo $product->id?>">Edit</a></td>
     </tr>
     <?php endforeach;?>
